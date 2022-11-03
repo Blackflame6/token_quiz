@@ -3,6 +3,7 @@ const cors = require('cors')
 const app = express()
 
 const PORT = 3543
+app.use(cors())
 
 
 
